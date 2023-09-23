@@ -28,7 +28,7 @@ def get_data(stocks, start_date, end_date):
     return meanRe, covarianceMatrix
 
 stockList = ["AMZN", 'MELI', 'NVDA', 'DIS', 'AAPL', 'TSLA', 'META', 'GOOGL', 'AMD']
-
+#stockList = ['AMZN', 'NVDA']
 endDate = dt.datetime.now()
 startDate = endDate - dt.timedelta(days=300)
 
